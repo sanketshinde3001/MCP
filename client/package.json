@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "A TypeScript client using @modelcontextprotocol/sdk",
+  "main": "build/client-script.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/client-script.js",
+    "dev": "tsc --watch",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.3.3"
+  }
+}
